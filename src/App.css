@@ -1,0 +1,157 @@
+*{
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  margin: 2rem 0rem;
+  font-size: 2.4rem;
+  color: rgb(52, 52, 52);
+}
+.insave{
+  border: .4rem solid rgb(48, 48, 48);
+  border-radius: 2rem;
+  margin-top: 4.3rem;
+  margin-right: 3rem;
+}
+
+.page{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pageone{
+margin-top: 4.2rem;
+}
+
+.first-container{
+  border: 2px solid  rgba(214,214,214, 0.728);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.fb {
+  width: 1.1rem;
+  margin: 1rem;
+
+}
+.inpt{
+  padding: .7rem;
+  width: 15.4rem;
+  margin-bottom: 1rem;
+  outline:1.8px solid rgb(193,193,193);
+  border: none;
+  background-color: rgba(233,233,233,0.293);
+
+}
+
+.loginbtn{
+  background-color: rgb(101, 167, 253);
+  border: none;
+  width: 16.8rem;
+  padding: .7rem;
+  font-size: .9rem;
+  color: white;
+  font-weight: bold;
+  border-radius: .4rem;
+  margin-bottom: .5rem;
+
+}
+
+.or{
+  color: rgb(78,77,77);
+  font-size: .8rem;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.logfb{
+  font-size: .9rem;
+  color:rgb(0, 71, 151);
+  font-weight: bold;
+
+}
+
+.pass{
+  font-size: .8rem;
+  color: rgb(2,0,112);
+  margin-top: 9px;
+}
+
+.second-container {
+  border: 2px solid  rgba(214,214,214, 0.728);
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: .8rem;
+  font-size: .9rem;
+  color:gray;
+
+}
+
+span{
+  color: rgb(12,125,255) ;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.third-container{
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: .3rem;
+  font-size: .9rem;
+  color:rgb(57,57,57);
+
+}
+.forth-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+}
+
+.app {
+  width: 8rem;
+  height:2.7rem;
+}
+
+.appone {
+  margin-right: .6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+  margin-bottom: 1rem;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  color: rgb(57, 57, 57);
+}
